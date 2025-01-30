@@ -51,16 +51,16 @@ npm start
 npm run dev
 ```
 
-The API will be available at http://localhost:3000
-Deployment
-This API is deployed at: [Your deployed URL]
-Testing
+### The API will be available at http://localhost:3000
+## Deployment
+This API is deployed at: [\[My render URL\]](https://hng-stage0task.onrender.com)
+## Testing
 You can test the API using curl:
 ```bash
-curl https://your-deployed-url
+curl https://hng-stage0task.onrender.com
 ```
 Or using your web browser by navigating to the deployed URL.
 
 
 ## Author
-innovator
+Me, myself and my witty brain lmao
