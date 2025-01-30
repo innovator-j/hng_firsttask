@@ -1,0 +1,28 @@
+{
+  "name": "hng12_stage0task",
+  "version": "1.0.0",
+  "description": "HNG12 Stage 0 Backend Task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innovator-j/hng_firsttask.git"
+  },
+  "author": "innovator",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/innovator-j/hng_firsttask/issues"
+  },
+  "homepage": "https://github.com/innovator-j/hng_firsttask#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
