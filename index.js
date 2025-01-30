@@ -12,9 +12,9 @@ app.get('/', (req, res) => {
     const formattedDate = date.toISOString().split('.')[0] + 'Z';
 
     const response = {
-        email: "innovatorj01@gmial.com",
-        currentTime: formattedDate,
-        githubUrl: "https://github.com/innovator-j/hng_firsttask"
+        email: "innovatorj01@gmail.com",
+        current_datetime: formattedDate,
+        github_url: "https://github.com/innovator-j/hng_firsttask"
     };
 
     res.json(response);
