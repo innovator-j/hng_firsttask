@@ -7,9 +7,13 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
+
+    const date = new Date();
+    const formattedDate = date.toISOString().split('.')[0] + 'Z';
+
     const response = {
         email: "innovatorj01@gmial.com",
-        currentTime: new Date().toISOString(),
+        currentTime: formattedDate,
         githubUrl: "https://github.com/innovator-j/hng_firsttask"
     };
 
